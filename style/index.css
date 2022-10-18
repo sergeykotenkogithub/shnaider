@@ -104,9 +104,8 @@ body {
     line-height: 1.2;
     color: #ffffff;
     text-decoration: none; }
-    .menu_link:not(:last-child) {
-      padding-right: 15px;
-      position: relative; }
+    .menu_link:hover {
+      text-decoration: underline; }
   .menu_li:not(:last-child) .menu_link {
     padding-right: 15px;
     position: relative;

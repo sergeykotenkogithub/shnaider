@@ -13,9 +13,8 @@
 		line-height: 1.2;
 		color: $text-background;
 		text-decoration: none;
-		&:not(:last-child) {
-			padding-right: 15px;
-			position: relative;
+		&:hover {
+			text-decoration: underline;
 		}
 	}
 
