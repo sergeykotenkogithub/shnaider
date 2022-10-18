@@ -1,0 +1,19 @@
+.company_slider {
+	height: 400px;
+	.slider {
+		overflow: hidden;
+		.swiper-slide {
+			display: flex;
+			justify-content: center;
+			height: 400px;
+
+			.main-img {
+				object-fit: cover;
+				background: url('../../img/main.jpg');
+				width: 100%;
+				max-width: 1400px;
+				background-position: center;
+			}
+		}
+	}
+}

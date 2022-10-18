@@ -1,0 +1,47 @@
+.header {
+	background: #dcdcdc;
+
+	.logo {
+		flex-shrink: 0;
+		padding-right: 15px;
+	}
+
+	&_sale {
+		font-size: 17px;
+		line-height: 22px;
+	}
+
+	&_title {
+		line-height: 1;
+		padding-bottom: 15px;
+		color: $main-color;
+		text-transform: uppercase;
+	}
+
+	&_wrapper {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 45px 0;
+	}
+
+	&_name {
+		display: flex;
+
+		.logo-img {
+			height: 100px;
+			width: 100px;
+		}
+	}
+
+	.name-company {
+		width: 320px;
+	}
+
+	.phone {
+		font-size: 31px;
+		line-height: 46px;
+		font-weight: 700;
+		color: $text-color;
+	}
+}

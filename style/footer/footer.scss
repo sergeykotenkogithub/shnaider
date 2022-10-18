@@ -1,0 +1,25 @@
+footer {
+	background: $text-color;
+	.footer,
+	.footer a {
+		color: $text-background;
+	}
+
+	.footer {
+		padding: 50px 0;
+		display: flex;
+		justify-content: space-between;
+
+		line-height: 22px;
+
+		&_developer {
+			width: 212px;
+		}
+
+		.list-footer {
+			&_link:not(:last-child) {
+				padding-bottom: 5px;
+			}
+		}
+	}
+}

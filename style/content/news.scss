@@ -1,0 +1,49 @@
+.news {
+	background: $main-color;
+	width: 350px;
+	padding: 25px 35px;
+	color: $text-background;
+	margin-right: 59px;
+	height: 100%;
+	&_content {
+		width: 264px;
+	}
+	&_title {
+		font-size: 40px;
+		line-height: 46px;
+		font-weight: 700;
+		font-family: 'PT Sans', sans-serif;
+		padding-bottom: 32px;
+	}
+	&_link-info {
+		color: $text-background;
+		text-decoration: none;
+	}
+	&_info {
+		padding-bottom: 15px;
+	}
+
+	.news-old {
+		text-align: end;
+		color: $text-background;
+	}
+	&_link-old {
+		color: $text-background;
+	}
+	&-description {
+		&_data {
+			font-size: 14px;
+			line-height: 22px;
+			font-weight: 300;
+			font-style: italic;
+			letter-spacing: 0.025em;
+		}
+		&_info {
+			font-size: 14px;
+			line-height: 22px;
+			font-weight: 400;
+			font-style: normal;
+			letter-spacing: 0.025em;
+		}
+	}
+}

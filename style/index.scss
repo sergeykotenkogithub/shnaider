@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap');
+
+@import './system/null.scss';
+@import './system/variable.scss';
+@import './header/header.scss';
+@import './menu/menu.scss';
+@import './slider/slider.scss';
+
+@import './content/wrapper.scss';
+@import './content/news.scss';
+@import './content/content.scss';
+
+@import './footer/footer.scss';
+
+.wrapper-center {
+	max-width: 980px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+}
