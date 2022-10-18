@@ -132,7 +132,7 @@ body {
       .company_slider .slider .swiper-slide .main-img {
         -o-object-fit: cover;
         object-fit: cover;
-        background: url("../../img/main.jpg");
+        background: url("https://raw.githubusercontent.com/sergeykotenkogithub/shnaider/main/img/main.jpg");
         width: 100%;
         max-width: 1400px;
         background-position: center; }
